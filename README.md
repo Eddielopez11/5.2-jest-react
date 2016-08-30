@@ -18,8 +18,9 @@
 ### React related deps (Library for fast ui code)
   - `$ npm install --save-dev react react-dom`
 ### Test related deps  (Jest is a testing library made for react)
-  - `$ npm install --save-dev jest react-test-renderer`
+  - `$ npm install --save-dev jest react-test-renderer react-addons-test-utils`
 
+  
 ## Development
   - `$ npm install -g webpack webpack-dev-server jest`
 
