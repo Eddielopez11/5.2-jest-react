@@ -1,4 +1,4 @@
-# FEE Boilerplate React/Bable/Webpack 
+# FEE Boilerplate React/Bable/Webpack
 
 ## Initial Setup Gotchas with Babel and Webpack
 ### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
@@ -11,13 +11,17 @@
       }
     ```
   - Add to `scripts: {}` inside of `package.json` to specify input/output folders for babel to run
+
+
+### Babel related deps (Translates es6 to es5)
   - `$ npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react`
+### React related deps (Library for fast ui code)
   - `$ npm install --save-dev react react-dom`
+### Test related deps  (Jest is a testing library made for react)
+  - `$ npm install --save-dev jest react-test-renderer`
 
 ## Development
-  - `$ npm install -g webpack`
-  - `$ npm install -g babel-cli`
-  - `$ npm install -g webpack-dev-server`
+  - `$ npm install -g webpack webpack-dev-server jest`
 
 
 ## Words
